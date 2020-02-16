@@ -3,7 +3,7 @@
 const Git = require('nodegit');
 const rimraf = require('rimraf');
 const ncp = require('ncp').ncp;
-const {existsSync} = require('fs');
+const {existsSync} = require('fis');
 const exec = require('child_process').exec;
 const {join} = require('path');
 
